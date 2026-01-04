@@ -10,6 +10,8 @@ use("ecommerce")
 // { $inc: { stock: 10 } }
 // )
 
+// mongodb project how to integrate next
+
 db.products.updateOne(
 { name: "Wireless Mouse" },
 { $push: { tags: "new" } }
